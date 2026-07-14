@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+
+msgid "Preferences"
+msgstr "首选项"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Interface Language"
+msgstr "界面语言"
+
+msgid "Save the preferred application language"
+msgstr "保存应用程序的首选语言"
+
+msgid "Auto-detect"
+msgstr "自动检测"
+
+msgid "Could not determine which folder to remove; only the launcher was removed. Find and delete the app’s files by hand."
+msgstr "无法确定要删除哪个文件夹；仅删除了启动器。请手动查找并删除该应用的文件。"
+
+msgid "Unidentified origin; cannot uninstall automatically."
+msgstr "来源不明；无法自动卸载。"
+
+msgid "Could not determine the package name."
+msgstr "无法确定软件包名称。"
+
+msgid "Authentication was cancelled or denied."
+msgstr "身份验证已取消或被拒绝。"
+
+msgid "Authentication failed or no PolicyKit agent is available."
+msgstr "身份验证失败或没有可用的 PolicyKit 代理。"
+
+msgid "Could not determine the Flatpak app ID."
+msgstr "无法确定 Flatpak 应用 ID。"
+
+msgid "flatpak uninstall failed with no further details."
+msgstr "flatpak uninstall 失败，没有更多详细信息。"
+
+msgid "Could not locate the .AppImage file; only the launcher was removed. Find and delete it by hand (hint: %s)."
+msgstr "找不到 .AppImage 文件；仅删除了启动器。请手动查找并删除它（提示：%s）。"
+
+msgid "The operation timed out."
+msgstr "操作超时。"
+
+msgid "The helper exited with code %d."
+msgstr "辅助程序以代码 %d 退出。"
+
+msgid "This looks like a system-wide Flatpak install (requires administrator privileges): %s"
+msgstr "这看起来像是系统级 Flatpak 安装（需要管理员权限）：%s"
+
+msgid "Could not move “%s” to the trash; only the launcher was removed. Remove it by hand."
+msgstr "无法将“%s”移至回收站；仅删除了启动器。请手动删除它。"
+
+msgid "Required command not available: %s"
+msgstr "所需命令不可用：%s"
+
+msgid "Could not determine how “%s” was installed. Its .desktop file doesn’t give enough clues."
+msgstr "无法确定“%s”是如何安装的。它的 .desktop 文件没有提供足够的线索。"
+
+msgid "Manually installed in your home folder: %s. Check that location to remove it by hand."
+msgstr "手动安装在您的主文件夹中：%s。请检查该位置以手动删除它。"
+
+msgid "Manually installed under /opt: %s. Usually uninstalled by deleting that folder."
+msgstr "手动安装在 /opt 下：%s。通常通过删除该文件夹来卸载。"
+
+msgid "No package manager owns this executable (%s) — likely installed directly by a script or vendor image, bypassing apt/snap/flatpak entirely. Check that location to remove it by hand."
+msgstr "没有任何包管理器拥有此可执行文件 (%s) —— 很可能是由脚本或供应商镜像直接安装的，完全绕过了 apt/snap/flatpak。请检查该位置以手动删除它。"
+
+msgid "The .desktop file could not be read."
+msgstr "无法读取 .desktop 文件。"
+
+msgid "This is a web app shortcut created from the browser (Chrome/Edge). Remove it from the browser’s own app management instead."
+msgstr "这是从浏览器（Chrome/Edge）创建的 Web 应用快捷方式。请改为在浏览器自己的应用管理中将其删除。"
+
+msgid "Sort order"
+msgstr "排序方式"
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "Main menu"
+msgstr "主菜单"
+
+msgid "Name (A–Z)"
+msgstr "名称（A–Z）"
+
+msgid "Name (Z–A)"
+msgstr "名称（Z–A）"
+
+msgid "Date (newest first)"
+msgstr "日期（最新在前）"
+
+msgid "Date (oldest first)"
+msgstr "日期（最旧在前）"
+
+msgid "All applications"
+msgstr "所有应用程序"
+
+msgid "User-installed"
+msgstr "用户安装"
+
+msgid "System"
+msgstr "系统"
+
+msgid "About Deinstall"
+msgstr "关于 Deinstall"
+
+msgid "Quit"
+msgstr "退出"
+
+msgid "Detected origin: %s."
+msgstr "检测到的来源：%s。"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgid "Uninstalling… this may take a few seconds."
+msgstr "正在卸载…这可能需要几秒钟。"
+
+msgid "Details"
+msgstr "详细信息"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Flatpak"
+msgstr "Flatpak"
+
+msgid "Snap"
+msgstr "Snap"
+
+msgid "System package (apt)"
+msgstr "系统软件包 (apt)"
+
+msgid "AppImage"
+msgstr "AppImage"
+
+msgid "Unidentified origin"
+msgstr "来源不明"
+
+msgid "Detecting origin…"
+msgstr "正在识别来源…"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Search applications…"
+msgstr "搜索应用程序…"
+
+msgid "Lists every application installed on your system — apt, snap, Flatpak, or AppImage — so you can uninstall it cleanly from one place."
+msgstr "列出系统上安装的每个应用程序 —— apt、snap、Flatpak 或 AppImage —— 让您可以在一个地方将其干净地卸载。"
+
+msgid "This will also remove its user data (Flatpak --delete-data)."
+msgstr "这还将删除其用户数据 (Flatpak --delete-data)。"
+
+msgid "Uninstalled successfully."
+msgstr "卸载成功。"
+
+msgid "Web app (browser)"
+msgstr "Web 应用（浏览器）"
+
+msgid "Manual install (home folder)"
+msgstr "手动安装（主文件夹）"
+
+msgid "Manual install (/opt)"
+msgstr "手动安装（/opt）"
+
+msgid "Manual install (no package manager)"
+msgstr "手动安装（无包管理器）"
+
+msgid "Scanning installed applications…"
+msgstr "正在扫描已安装的应用程序…"
+
+msgid "No matching applications"
+msgstr "没有匹配的应用程序"
+
+msgid "Language preference saved. Restart the app to apply it everywhere."
+msgstr "语言偏好已保存。重启应用以在所有位置生效。"
+
+msgid "You will be asked to authenticate as an administrator."
+msgstr "系统将要求您以管理员身份进行身份验证。"
+
+msgid "Uninstall “%s”?"
+msgstr "卸载“%s”？"
+
+msgid "Partial uninstall — see details."
+msgstr "部分卸载 — 请查看详细信息。"
+
+msgid "⚠️ This package is part of the base system — removing it may break your desktop or other software. Only proceed if you’re sure."
+msgstr "⚠️ 此软件包是基础系统的一部分 —— 删除它可能会破坏您的桌面或其他软件。请仅在确定时继续。"
+
+msgid "Unknown error."
+msgstr "未知错误。"
+
+msgid "This isn’t managed by a package manager and the app’s install folder couldn’t be determined — only the launcher will be removed."
+msgstr "这不是由包管理器管理的，且无法确定该应用的安装文件夹 —— 仅删除启动器。"
+
+msgid "“%s” uninstalled."
+msgstr "“%s”已卸载。"
+
+msgid "This isn’t managed by a package manager — this is a guess. The folder below (and the launcher) will be moved to the trash, so you can recover it if the guess was wrong:\n%s"
+msgstr "这不是由包管理器管理的 —— 这是一个推测。下面的文件夹（以及启动器）将被移至回收站，因此如果推测有误，您可以将其恢复：\n%s"

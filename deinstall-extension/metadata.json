@@ -1,0 +1,15 @@
+{
+  "name": "Deinstall",
+  "description": "Adds an 'Uninstall' item to every application's context menu, automatically detecting whether it comes from a deb/apt, snap, Flatpak or AppImage package.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/pabmartine/deinstall",
+  "uuid": "deinstall@pabmartine.com",
+  "version": 1
+}

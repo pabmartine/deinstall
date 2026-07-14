@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
+
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+msgid "General"
+msgstr "सामान्य"
+
+msgid "Language"
+msgstr "भाषा"
+
+msgid "Interface Language"
+msgstr "इंटरफ़ेस भाषा"
+
+msgid "Save the preferred application language"
+msgstr "पसंदीदा एप्लिकेशन भाषा सहेजें"
+
+msgid "Auto-detect"
+msgstr "स्वतः पहचानें"
+
+msgid "Could not determine which folder to remove; only the launcher was removed. Find and delete the app’s files by hand."
+msgstr "यह निर्धारित नहीं किया जा सका कि कौन सा फ़ोल्डर हटाना है; केवल लॉन्चर हटाया गया। ऐप की फ़ाइलें हाथ से ढूँढकर हटाएँ।"
+
+msgid "Unidentified origin; cannot uninstall automatically."
+msgstr "अज्ञात स्रोत; स्वचालित रूप से अनइंस्टॉल नहीं किया जा सकता।"
+
+msgid "Could not determine the package name."
+msgstr "पैकेज का नाम निर्धारित नहीं किया जा सका।"
+
+msgid "Authentication was cancelled or denied."
+msgstr "प्रमाणीकरण रद्द या अस्वीकृत कर दिया गया।"
+
+msgid "Authentication failed or no PolicyKit agent is available."
+msgstr "प्रमाणीकरण विफल रहा या कोई PolicyKit एजेंट उपलब्ध नहीं है।"
+
+msgid "Could not determine the Flatpak app ID."
+msgstr "Flatpak ऐप ID निर्धारित नहीं की जा सकी।"
+
+msgid "flatpak uninstall failed with no further details."
+msgstr "flatpak uninstall बिना किसी अतिरिक्त विवरण के विफल रहा।"
+
+msgid "Could not locate the .AppImage file; only the launcher was removed. Find and delete it by hand (hint: %s)."
+msgstr ".AppImage फ़ाइल का पता नहीं चल सका; केवल लॉन्चर हटाया गया। इसे हाथ से ढूँढकर हटाएँ (संकेत: %s)।"
+
+msgid "The operation timed out."
+msgstr "ऑपरेशन का समय समाप्त हो गया।"
+
+msgid "The helper exited with code %d."
+msgstr "हेल्पर कोड %d के साथ बाहर निकल गया।"
+
+msgid "This looks like a system-wide Flatpak install (requires administrator privileges): %s"
+msgstr "यह एक सिस्टम-व्यापी Flatpak इंस्टॉल जैसा दिखता है (व्यवस्थापक विशेषाधिकार आवश्यक): %s"
+
+msgid "Could not move “%s” to the trash; only the launcher was removed. Remove it by hand."
+msgstr "“%s” को ट्रैश में नहीं ले जाया जा सका; केवल लॉन्चर हटाया गया। इसे हाथ से हटाएँ।"
+
+msgid "Required command not available: %s"
+msgstr "आवश्यक कमांड उपलब्ध नहीं: %s"
+
+msgid "Could not determine how “%s” was installed. Its .desktop file doesn’t give enough clues."
+msgstr "यह निर्धारित नहीं किया जा सका कि “%s” कैसे इंस्टॉल हुआ। इसकी .desktop फ़ाइल पर्याप्त संकेत नहीं देती।"
+
+msgid "Manually installed in your home folder: %s. Check that location to remove it by hand."
+msgstr "आपके होम फ़ोल्डर में मैन्युअल रूप से इंस्टॉल किया गया: %s। इसे हाथ से हटाने के लिए उस स्थान की जाँच करें।"
+
+msgid "Manually installed under /opt: %s. Usually uninstalled by deleting that folder."
+msgstr "/opt के अंतर्गत मैन्युअल रूप से इंस्टॉल किया गया: %s। आमतौर पर उस फ़ोल्डर को हटाकर अनइंस्टॉल किया जाता है।"
+
+msgid "No package manager owns this executable (%s) — likely installed directly by a script or vendor image, bypassing apt/snap/flatpak entirely. Check that location to remove it by hand."
+msgstr "कोई भी पैकेज मैनेजर इस निष्पादन योग्य फ़ाइल (%s) का स्वामी नहीं है — संभवतः किसी स्क्रिप्ट या विक्रेता इमेज द्वारा सीधे इंस्टॉल किया गया, apt/snap/flatpak को पूरी तरह से दरकिनार करते हुए। इसे हाथ से हटाने के लिए उस स्थान की जाँच करें।"
+
+msgid "The .desktop file could not be read."
+msgstr ".desktop फ़ाइल पढ़ी नहीं जा सकी।"
+
+msgid "This is a web app shortcut created from the browser (Chrome/Edge). Remove it from the browser’s own app management instead."
+msgstr "यह ब्राउज़र (Chrome/Edge) से बनाया गया एक वेब ऐप शॉर्टकट है। इसके बजाय इसे ब्राउज़र के अपने ऐप प्रबंधन से हटाएँ।"
+
+msgid "Sort order"
+msgstr "क्रमबद्ध करने का क्रम"
+
+msgid "Filter"
+msgstr "फ़िल्टर"
+
+msgid "Main menu"
+msgstr "मुख्य मेन्यू"
+
+msgid "Name (A–Z)"
+msgstr "नाम (A–Z)"
+
+msgid "Name (Z–A)"
+msgstr "नाम (Z–A)"
+
+msgid "Date (newest first)"
+msgstr "तिथि (नवीनतम पहले)"
+
+msgid "Date (oldest first)"
+msgstr "तिथि (सबसे पुराना पहले)"
+
+msgid "All applications"
+msgstr "सभी एप्लिकेशन"
+
+msgid "User-installed"
+msgstr "उपयोगकर्ता-इंस्टॉल किए गए"
+
+msgid "System"
+msgstr "सिस्टम"
+
+msgid "About Deinstall"
+msgstr "Deinstall के बारे में"
+
+msgid "Quit"
+msgstr "बाहर निकलें"
+
+msgid "Detected origin: %s."
+msgstr "पहचाना गया स्रोत: %s।"
+
+msgid "Cancel"
+msgstr "रद्द करें"
+
+msgid "Uninstall"
+msgstr "अनइंस्टॉल करें"
+
+msgid "Uninstalling… this may take a few seconds."
+msgstr "अनइंस्टॉल किया जा रहा है… इसमें कुछ सेकंड लग सकते हैं।"
+
+msgid "Details"
+msgstr "विवरण"
+
+msgid "Close"
+msgstr "बंद करें"
+
+msgid "Flatpak"
+msgstr "Flatpak"
+
+msgid "Snap"
+msgstr "Snap"
+
+msgid "System package (apt)"
+msgstr "सिस्टम पैकेज (apt)"
+
+msgid "AppImage"
+msgstr "AppImage"
+
+msgid "Unidentified origin"
+msgstr "अज्ञात स्रोत"
+
+msgid "Detecting origin…"
+msgstr "स्रोत का पता लगाया जा रहा है…"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Search applications…"
+msgstr "एप्लिकेशन खोजें…"
+
+msgid "Lists every application installed on your system — apt, snap, Flatpak, or AppImage — so you can uninstall it cleanly from one place."
+msgstr "आपके सिस्टम पर इंस्टॉल किए गए हर एप्लिकेशन को सूचीबद्ध करता है — apt, snap, Flatpak, या AppImage — ताकि आप उसे एक ही जगह से साफ़-सुथरे तरीके से अनइंस्टॉल कर सकें।"
+
+msgid "This will also remove its user data (Flatpak --delete-data)."
+msgstr "इससे इसका उपयोगकर्ता डेटा भी हट जाएगा (Flatpak --delete-data)।"
+
+msgid "Uninstalled successfully."
+msgstr "सफलतापूर्वक अनइंस्टॉल किया गया।"
+
+msgid "Web app (browser)"
+msgstr "वेब ऐप (ब्राउज़र)"
+
+msgid "Manual install (home folder)"
+msgstr "मैन्युअल इंस्टॉल (होम फ़ोल्डर)"
+
+msgid "Manual install (/opt)"
+msgstr "मैन्युअल इंस्टॉल (/opt)"
+
+msgid "Manual install (no package manager)"
+msgstr "मैन्युअल इंस्टॉल (कोई पैकेज मैनेजर नहीं)"
+
+msgid "Scanning installed applications…"
+msgstr "इंस्टॉल किए गए एप्लिकेशन स्कैन किए जा रहे हैं…"
+
+msgid "No matching applications"
+msgstr "कोई मेल खाने वाला एप्लिकेशन नहीं"
+
+msgid "Language preference saved. Restart the app to apply it everywhere."
+msgstr "भाषा प्राथमिकता सहेजी गई। इसे हर जगह लागू करने के लिए ऐप को पुनः प्रारंभ करें।"
+
+msgid "You will be asked to authenticate as an administrator."
+msgstr "आपसे एक व्यवस्थापक के रूप में प्रमाणित करने के लिए कहा जाएगा।"
+
+msgid "Uninstall “%s”?"
+msgstr "“%s” को अनइंस्टॉल करें?"
+
+msgid "Partial uninstall — see details."
+msgstr "आंशिक अनइंस्टॉल — विवरण देखें।"
+
+msgid "⚠️ This package is part of the base system — removing it may break your desktop or other software. Only proceed if you’re sure."
+msgstr "⚠️ यह पैकेज बेस सिस्टम का हिस्सा है — इसे हटाने से आपका डेस्कटॉप या अन्य सॉफ़्टवेयर खराब हो सकता है। केवल तभी आगे बढ़ें जब आप निश्चित हों।"
+
+msgid "Unknown error."
+msgstr "अज्ञात त्रुटि।"
+
+msgid "This isn’t managed by a package manager and the app’s install folder couldn’t be determined — only the launcher will be removed."
+msgstr "यह किसी पैकेज मैनेजर द्वारा प्रबंधित नहीं है और ऐप का इंस्टॉल फ़ोल्डर निर्धारित नहीं किया जा सका — केवल लॉन्चर हटाया जाएगा।"
+
+msgid "“%s” uninstalled."
+msgstr "“%s” अनइंस्टॉल किया गया।"
+
+msgid "This isn’t managed by a package manager — this is a guess. The folder below (and the launcher) will be moved to the trash, so you can recover it if the guess was wrong:\n%s"
+msgstr "यह किसी पैकेज मैनेजर द्वारा प्रबंधित नहीं है — यह एक अनुमान है। नीचे दिया गया फ़ोल्डर (और लॉन्चर) ट्रैश में ले जाया जाएगा, ताकि यदि अनुमान गलत हो तो आप इसे पुनर्प्राप्त कर सकें:\n%s"

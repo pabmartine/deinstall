@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+msgid "The “Deinstall” app is required"
+msgstr "Se requiere la app «Deinstall»"
+
+msgid "Install the “Deinstall” companion app to uninstall applications from this menu."
+msgstr "Instala la app complementaria «Deinstall» para poder desinstalar aplicaciones desde este menú."
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Could not reach the Deinstall app: %s"
+msgstr "No se ha podido contactar con la app Deinstall: %s"

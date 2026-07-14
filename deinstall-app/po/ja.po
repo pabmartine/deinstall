@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "Preferences"
+msgstr "設定"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Interface Language"
+msgstr "インターフェースの言語"
+
+msgid "Save the preferred application language"
+msgstr "アプリケーションの優先言語を保存"
+
+msgid "Auto-detect"
+msgstr "自動検出"
+
+msgid "Could not determine which folder to remove; only the launcher was removed. Find and delete the app’s files by hand."
+msgstr "削除するフォルダーを判別できませんでした。ランチャーのみが削除されました。アプリのファイルを手動で見つけて削除してください。"
+
+msgid "Unidentified origin; cannot uninstall automatically."
+msgstr "不明な提供元です。自動的にアンインストールできません。"
+
+msgid "Could not determine the package name."
+msgstr "パッケージ名を判別できませんでした。"
+
+msgid "Authentication was cancelled or denied."
+msgstr "認証がキャンセルされたか拒否されました。"
+
+msgid "Authentication failed or no PolicyKit agent is available."
+msgstr "認証に失敗したか、PolicyKit エージェントが利用できません。"
+
+msgid "Could not determine the Flatpak app ID."
+msgstr "Flatpak アプリ ID を判別できませんでした。"
+
+msgid "flatpak uninstall failed with no further details."
+msgstr "flatpak uninstall が失敗しました。詳細はありません。"
+
+msgid "Could not locate the .AppImage file; only the launcher was removed. Find and delete it by hand (hint: %s)."
+msgstr ".AppImage ファイルが見つかりませんでした。ランチャーのみが削除されました。手動で見つけて削除してください（ヒント: %s）。"
+
+msgid "The operation timed out."
+msgstr "操作がタイムアウトしました。"
+
+msgid "The helper exited with code %d."
+msgstr "ヘルパーがコード %d で終了しました。"
+
+msgid "This looks like a system-wide Flatpak install (requires administrator privileges): %s"
+msgstr "これはシステム全体の Flatpak インストールのようです（管理者権限が必要です）: %s"
+
+msgid "Could not move “%s” to the trash; only the launcher was removed. Remove it by hand."
+msgstr "「%s」をゴミ箱に移動できませんでした。ランチャーのみが削除されました。手動で削除してください。"
+
+msgid "Required command not available: %s"
+msgstr "必要なコマンドが利用できません: %s"
+
+msgid "Could not determine how “%s” was installed. Its .desktop file doesn’t give enough clues."
+msgstr "「%s」がどのようにインストールされたか判別できませんでした。その .desktop ファイルには十分な手がかりがありません。"
+
+msgid "Manually installed in your home folder: %s. Check that location to remove it by hand."
+msgstr "ホームフォルダーに手動でインストールされています: %s。その場所を確認して手動で削除してください。"
+
+msgid "Manually installed under /opt: %s. Usually uninstalled by deleting that folder."
+msgstr "/opt に手動でインストールされています: %s。通常はそのフォルダーを削除してアンインストールします。"
+
+msgid "No package manager owns this executable (%s) — likely installed directly by a script or vendor image, bypassing apt/snap/flatpak entirely. Check that location to remove it by hand."
+msgstr "この実行可能ファイル (%s) を所有するパッケージマネージャーはありません — apt/snap/flatpak を完全にバイパスして、スクリプトやベンダーイメージによって直接インストールされた可能性があります。その場所を確認して手動で削除してください。"
+
+msgid "The .desktop file could not be read."
+msgstr ".desktop ファイルを読み取れませんでした。"
+
+msgid "This is a web app shortcut created from the browser (Chrome/Edge). Remove it from the browser’s own app management instead."
+msgstr "これはブラウザ（Chrome/Edge）から作成された Web アプリのショートカットです。代わりにブラウザのアプリ管理から削除してください。"
+
+msgid "Sort order"
+msgstr "並べ替え順"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "Main menu"
+msgstr "メインメニュー"
+
+msgid "Name (A–Z)"
+msgstr "名前（A–Z）"
+
+msgid "Name (Z–A)"
+msgstr "名前（Z–A）"
+
+msgid "Date (newest first)"
+msgstr "日付（新しい順）"
+
+msgid "Date (oldest first)"
+msgstr "日付（古い順）"
+
+msgid "All applications"
+msgstr "すべてのアプリケーション"
+
+msgid "User-installed"
+msgstr "ユーザーがインストール"
+
+msgid "System"
+msgstr "システム"
+
+msgid "About Deinstall"
+msgstr "Deinstall について"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Detected origin: %s."
+msgstr "検出された提供元: %s。"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "Uninstalling… this may take a few seconds."
+msgstr "アンインストールしています…数秒かかる場合があります。"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Flatpak"
+msgstr "Flatpak"
+
+msgid "Snap"
+msgstr "Snap"
+
+msgid "System package (apt)"
+msgstr "システムパッケージ (apt)"
+
+msgid "AppImage"
+msgstr "AppImage"
+
+msgid "Unidentified origin"
+msgstr "不明な提供元"
+
+msgid "Detecting origin…"
+msgstr "提供元を検出しています…"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Search applications…"
+msgstr "アプリケーションを検索…"
+
+msgid "Lists every application installed on your system — apt, snap, Flatpak, or AppImage — so you can uninstall it cleanly from one place."
+msgstr "システムにインストールされているすべてのアプリケーション（apt、snap、Flatpak、AppImage）を一覧表示し、一か所からきれいにアンインストールできます。"
+
+msgid "This will also remove its user data (Flatpak --delete-data)."
+msgstr "これにより、ユーザーデータも削除されます (Flatpak --delete-data)。"
+
+msgid "Uninstalled successfully."
+msgstr "正常にアンインストールされました。"
+
+msgid "Web app (browser)"
+msgstr "Web アプリ（ブラウザ）"
+
+msgid "Manual install (home folder)"
+msgstr "手動インストール（ホームフォルダー）"
+
+msgid "Manual install (/opt)"
+msgstr "手動インストール（/opt）"
+
+msgid "Manual install (no package manager)"
+msgstr "手動インストール（パッケージマネージャーなし）"
+
+msgid "Scanning installed applications…"
+msgstr "インストール済みアプリケーションをスキャンしています…"
+
+msgid "No matching applications"
+msgstr "一致するアプリケーションがありません"
+
+msgid "Language preference saved. Restart the app to apply it everywhere."
+msgstr "言語設定を保存しました。すべてに適用するにはアプリを再起動してください。"
+
+msgid "You will be asked to authenticate as an administrator."
+msgstr "管理者として認証を求められます。"
+
+msgid "Uninstall “%s”?"
+msgstr "「%s」をアンインストールしますか？"
+
+msgid "Partial uninstall — see details."
+msgstr "部分的なアンインストール — 詳細を確認してください。"
+
+msgid "⚠️ This package is part of the base system — removing it may break your desktop or other software. Only proceed if you’re sure."
+msgstr "⚠️ このパッケージは基本システムの一部です — 削除するとデスクトップや他のソフトウェアが壊れる可能性があります。確信がある場合のみ続行してください。"
+
+msgid "Unknown error."
+msgstr "不明なエラー。"
+
+msgid "This isn’t managed by a package manager and the app’s install folder couldn’t be determined — only the launcher will be removed."
+msgstr "これはパッケージマネージャーによって管理されておらず、アプリのインストールフォルダーを判別できませんでした — ランチャーのみが削除されます。"
+
+msgid "“%s” uninstalled."
+msgstr "「%s」をアンインストールしました。"
+
+msgid "This isn’t managed by a package manager — this is a guess. The folder below (and the launcher) will be moved to the trash, so you can recover it if the guess was wrong:\n%s"
+msgstr "これはパッケージマネージャーによって管理されていません — これは推測です。下記のフォルダー（およびランチャー）はゴミ箱に移動されるため、推測が間違っていた場合は復元できます:\n%s"

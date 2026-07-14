@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.pabmartine.Deinstall</id>
+  <name>Deinstall</name>
+  <summary>List installed applications and uninstall them, whatever their source</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <developer id="com.pabmartine">
+    <name>pabmartine</name>
+  </developer>
+  <launchable type="desktop-id">com.pabmartine.Deinstall.desktop</launchable>
+  <description>
+    <p>Deinstall is a GTK4 and libadwaita desktop application that lists every application installed on your system — regardless of whether it came from apt, snap, Flatpak, or an AppImage — and lets you uninstall it cleanly from one place.</p>
+    <p>It automatically detects each application's installation source, so you no longer have to guess which package manager owns it before removing it.</p>
+  </description>
+  <categories>
+    <category>Utility</category>
+    <category>System</category>
+  </categories>
+  <keywords>
+    <keyword>Uninstall</keyword>
+    <keyword>Remove</keyword>
+    <keyword>Apt</keyword>
+    <keyword>Snap</keyword>
+    <keyword>Flatpak</keyword>
+    <keyword>AppImage</keyword>
+    <keyword>Packages</keyword>
+  </keywords>
+
+  <url type="homepage">https://github.com/pabmartine/deinstall-app</url>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2026-07-10"/>
+  </releases>
+</component>

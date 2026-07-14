@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "General"
+msgstr "Основные"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Interface Language"
+msgstr "Язык интерфейса"
+
+msgid "Save the preferred application language"
+msgstr "Сохранить предпочитаемый язык приложения"
+
+msgid "Auto-detect"
+msgstr "Автоопределение"
+
+msgid "Could not determine which folder to remove; only the launcher was removed. Find and delete the app’s files by hand."
+msgstr "Не удалось определить, какую папку удалить; удалён только значок запуска. Найдите и удалите файлы приложения вручную."
+
+msgid "Unidentified origin; cannot uninstall automatically."
+msgstr "Неопознанный источник; автоматическое удаление невозможно."
+
+msgid "Could not determine the package name."
+msgstr "Не удалось определить имя пакета."
+
+msgid "Authentication was cancelled or denied."
+msgstr "Аутентификация была отменена или отклонена."
+
+msgid "Authentication failed or no PolicyKit agent is available."
+msgstr "Ошибка аутентификации или отсутствует агент PolicyKit."
+
+msgid "Could not determine the Flatpak app ID."
+msgstr "Не удалось определить идентификатор приложения Flatpak."
+
+msgid "flatpak uninstall failed with no further details."
+msgstr "flatpak uninstall завершился ошибкой без дополнительных сведений."
+
+msgid "Could not locate the .AppImage file; only the launcher was removed. Find and delete it by hand (hint: %s)."
+msgstr "Не удалось найти файл .AppImage; удалён только значок запуска. Найдите и удалите его вручную (подсказка: %s)."
+
+msgid "The operation timed out."
+msgstr "Время ожидания операции истекло."
+
+msgid "The helper exited with code %d."
+msgstr "Вспомогательная программа завершилась с кодом %d."
+
+msgid "This looks like a system-wide Flatpak install (requires administrator privileges): %s"
+msgstr "Похоже, это общесистемная установка Flatpak (требуются права администратора): %s"
+
+msgid "Could not move “%s” to the trash; only the launcher was removed. Remove it by hand."
+msgstr "Не удалось переместить «%s» в корзину; удалён только значок запуска. Удалите его вручную."
+
+msgid "Required command not available: %s"
+msgstr "Требуемая команда недоступна: %s"
+
+msgid "Could not determine how “%s” was installed. Its .desktop file doesn’t give enough clues."
+msgstr "Не удалось определить, как было установлено «%s». Его файл .desktop не даёт достаточно подсказок."
+
+msgid "Manually installed in your home folder: %s. Check that location to remove it by hand."
+msgstr "Установлено вручную в вашей домашней папке: %s. Проверьте это расположение, чтобы удалить вручную."
+
+msgid "Manually installed under /opt: %s. Usually uninstalled by deleting that folder."
+msgstr "Установлено вручную в /opt: %s. Обычно удаляется путём удаления этой папки."
+
+msgid "No package manager owns this executable (%s) — likely installed directly by a script or vendor image, bypassing apt/snap/flatpak entirely. Check that location to remove it by hand."
+msgstr "Ни один менеджер пакетов не владеет этим исполняемым файлом (%s) — вероятно, он установлен напрямую скриптом или образом поставщика, минуя apt/snap/flatpak. Проверьте это расположение, чтобы удалить вручную."
+
+msgid "The .desktop file could not be read."
+msgstr "Не удалось прочитать файл .desktop."
+
+msgid "This is a web app shortcut created from the browser (Chrome/Edge). Remove it from the browser’s own app management instead."
+msgstr "Это ярлык веб-приложения, созданный браузером (Chrome/Edge). Удалите его через управление приложениями самого браузера."
+
+msgid "Sort order"
+msgstr "Порядок сортировки"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Main menu"
+msgstr "Главное меню"
+
+msgid "Name (A–Z)"
+msgstr "Имя (А–Я)"
+
+msgid "Name (Z–A)"
+msgstr "Имя (Я–А)"
+
+msgid "Date (newest first)"
+msgstr "Дата (сначала новые)"
+
+msgid "Date (oldest first)"
+msgstr "Дата (сначала старые)"
+
+msgid "All applications"
+msgstr "Все приложения"
+
+msgid "User-installed"
+msgstr "Установленные пользователем"
+
+msgid "System"
+msgstr "Системные"
+
+msgid "About Deinstall"
+msgstr "О программе Deinstall"
+
+msgid "Quit"
+msgstr "Выход"
+
+msgid "Detected origin: %s."
+msgstr "Обнаруженный источник: %s."
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Uninstall"
+msgstr "Удалить"
+
+msgid "Uninstalling… this may take a few seconds."
+msgstr "Удаление… это может занять несколько секунд."
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Flatpak"
+msgstr "Flatpak"
+
+msgid "Snap"
+msgstr "Snap"
+
+msgid "System package (apt)"
+msgstr "Системный пакет (apt)"
+
+msgid "AppImage"
+msgstr "AppImage"
+
+msgid "Unidentified origin"
+msgstr "Неопознанный источник"
+
+msgid "Detecting origin…"
+msgstr "Определение источника…"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Search applications…"
+msgstr "Поиск приложений…"
+
+msgid "Lists every application installed on your system — apt, snap, Flatpak, or AppImage — so you can uninstall it cleanly from one place."
+msgstr "Показывает все приложения, установленные в вашей системе — apt, snap, Flatpak или AppImage — чтобы вы могли аккуратно удалить их из одного места."
+
+msgid "This will also remove its user data (Flatpak --delete-data)."
+msgstr "При этом также будут удалены пользовательские данные (Flatpak --delete-data)."
+
+msgid "Uninstalled successfully."
+msgstr "Успешно удалено."
+
+msgid "Web app (browser)"
+msgstr "Веб-приложение (браузер)"
+
+msgid "Manual install (home folder)"
+msgstr "Ручная установка (домашняя папка)"
+
+msgid "Manual install (/opt)"
+msgstr "Ручная установка (/opt)"
+
+msgid "Manual install (no package manager)"
+msgstr "Ручная установка (без менеджера пакетов)"
+
+msgid "Scanning installed applications…"
+msgstr "Сканирование установленных приложений…"
+
+msgid "No matching applications"
+msgstr "Нет подходящих приложений"
+
+msgid "Language preference saved. Restart the app to apply it everywhere."
+msgstr "Настройка языка сохранена. Перезапустите приложение, чтобы применить её везде."
+
+msgid "You will be asked to authenticate as an administrator."
+msgstr "Вам будет предложено пройти аутентификацию как администратор."
+
+msgid "Uninstall “%s”?"
+msgstr "Удалить «%s»?"
+
+msgid "Partial uninstall — see details."
+msgstr "Частичное удаление — см. подробности."
+
+msgid "⚠️ This package is part of the base system — removing it may break your desktop or other software. Only proceed if you’re sure."
+msgstr "⚠️ Этот пакет является частью базовой системы — его удаление может нарушить работу рабочего стола или другого ПО. Продолжайте, только если уверены."
+
+msgid "Unknown error."
+msgstr "Неизвестная ошибка."
+
+msgid "This isn’t managed by a package manager and the app’s install folder couldn’t be determined — only the launcher will be removed."
+msgstr "Это не управляется менеджером пакетов, и папку установки приложения не удалось определить — будет удалён только значок запуска."
+
+msgid "“%s” uninstalled."
+msgstr "«%s» удалено."
+
+msgid "This isn’t managed by a package manager — this is a guess. The folder below (and the launcher) will be moved to the trash, so you can recover it if the guess was wrong:\n%s"
+msgstr "Это не управляется менеджером пакетов — это предположение. Папка ниже (и значок запуска) будет перемещена в корзину, чтобы вы могли восстановить её, если предположение окажется неверным:\n%s"

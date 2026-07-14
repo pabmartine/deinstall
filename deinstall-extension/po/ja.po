@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "The “Deinstall” app is required"
+msgstr "「Deinstall」アプリが必要です"
+
+msgid "Install the “Deinstall” companion app to uninstall applications from this menu."
+msgstr "このメニューからアプリケーションをアンインストールするには、コンパニオンアプリ「Deinstall」をインストールしてください。"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Could not reach the Deinstall app: %s"
+msgstr "Deinstall アプリに接続できませんでした: %s"

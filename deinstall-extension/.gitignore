@@ -1,0 +1,10 @@
+# Packed extension bundles
+*.zip
+*.shell-extension.zip
+
+# Node / tooling
+node_modules/
+
+# Editor / OS cruft
+*~
+.DS_Store

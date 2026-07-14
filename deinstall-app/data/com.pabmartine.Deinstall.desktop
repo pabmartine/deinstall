@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Deinstall
+Comment=List installed applications and uninstall them, whatever their source
+Exec=deinstall
+Icon=com.pabmartine.Deinstall
+Terminal=false
+Type=Application
+Categories=Utility;System;
+StartupNotify=true
+Keywords=Uninstall;Remove;Apt;Snap;Flatpak;AppImage;Packages;
+DBusActivatable=true

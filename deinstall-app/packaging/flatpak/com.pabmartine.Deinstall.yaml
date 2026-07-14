@@ -1,0 +1,73 @@
+app-id: com.pabmartine.Deinstall
+runtime: org.gnome.Platform
+runtime-version: "50"
+sdk: org.gnome.Sdk
+command: deinstall
+
+finish-args:
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --filesystem=xdg-config:create
+  - --filesystem=xdg-data:create
+  # /usr is reserved by Flatpak and can't be bind-mounted directly; host-os
+  # exposes it read-only under /run/host/usr instead, which is what lets us
+  # list apt-installed apps and resolve their icons (see HOST_ROOT in
+  # core/detector.py).
+  - --filesystem=host-os:ro
+  # Snap app icons commonly live under /snap/<name>/... (separate from the
+  # desktop-integration dirs above, which only cover the .desktop/launcher
+  # icons snapd itself curates).
+  - --filesystem=/snap:ro
+  # The exports/share/{applications,icons} entries are themselves symlinks
+  # pointing outside that tree, into /var/lib/flatpak/app/<id>/.../export/...
+  # — bind-mounting only the exports subdir leaves those targets invisible
+  # inside the sandbox (unreadable .desktop: no name/icon/mtime). Grant the
+  # whole tree read-only instead, same broad-but-ro approach as /snap below.
+  - --filesystem=/var/lib/flatpak:ro
+  - --filesystem=/var/lib/snapd/desktop/applications:ro
+  - --filesystem=/var/lib/snapd/desktop/icons:ro
+  # flatpak-spawn --host: needed to run dpkg/flatpak/snap/pkexec on the host,
+  # since none of that is meaningful run inside our own sandbox. Same
+  # permission Looker already uses for its privileged GRUB installer.
+  - --talk-name=org.freedesktop.Flatpak
+
+modules:
+  - name: deinstall
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/bin /app/src /app/share/applications /app/share/icons/hicolor/256x256/apps /app/share/locale /app/share/metainfo /app/share/dbus-1/services
+      - cp -r src/deinstall /app/src/
+      - |
+        cat > /app/bin/deinstall << 'EOF'
+        #!/bin/bash
+        export FLATPAK_ID="com.pabmartine.Deinstall"
+        export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+        export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
+        mkdir -p "$XDG_CONFIG_HOME/deinstall"
+        export PYTHONPATH="/app/src${PYTHONPATH:+:$PYTHONPATH}"
+        exec python3 -m deinstall.main "$@"
+        EOF
+      - chmod +x /app/bin/deinstall
+      - install -D -m644 data/com.pabmartine.Deinstall.desktop /app/share/applications/com.pabmartine.Deinstall.desktop
+      - install -D -m644 data/icons/hicolor/256x256/apps/com.pabmartine.Deinstall.png /app/share/icons/hicolor/256x256/apps/com.pabmartine.Deinstall.png
+      - install -D -m644 data/com.pabmartine.Deinstall.metainfo.xml /app/share/metainfo/com.pabmartine.Deinstall.metainfo.xml
+      - |
+        cat > /app/share/dbus-1/services/com.pabmartine.Deinstall.service << 'EOF'
+        [D-BUS Service]
+        Name=com.pabmartine.Deinstall
+        Exec=/app/bin/deinstall
+        EOF
+      - |
+        # Translation sources live in po/<lang>.po; compile each into the
+        # gettext layout the app looks up at runtime (/app/share/locale).
+        for po_file in po/*.po; do
+          [ -f "$po_file" ] || continue
+          lang="$(basename "$po_file" .po)"
+          mkdir -p "/app/share/locale/$lang/LC_MESSAGES"
+          msgfmt "$po_file" -o "/app/share/locale/$lang/LC_MESSAGES/deinstall.mo"
+        done
+    sources:
+      - type: dir
+        path: ../..

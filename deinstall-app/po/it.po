@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: deinstall\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgid "General"
+msgstr "Generale"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Interface Language"
+msgstr "Lingua dell’interfaccia"
+
+msgid "Save the preferred application language"
+msgstr "Salva la lingua preferita dell’applicazione"
+
+msgid "Auto-detect"
+msgstr "Rilevamento automatico"
+
+msgid "Could not determine which folder to remove; only the launcher was removed. Find and delete the app’s files by hand."
+msgstr "Impossibile determinare quale cartella rimuovere; è stato rimosso solo il lanciatore. Trova ed elimina i file dell’app a mano."
+
+msgid "Unidentified origin; cannot uninstall automatically."
+msgstr "Origine non identificata; impossibile disinstallare automaticamente."
+
+msgid "Could not determine the package name."
+msgstr "Impossibile determinare il nome del pacchetto."
+
+msgid "Authentication was cancelled or denied."
+msgstr "L’autenticazione è stata annullata o negata."
+
+msgid "Authentication failed or no PolicyKit agent is available."
+msgstr "Autenticazione non riuscita o nessun agente PolicyKit disponibile."
+
+msgid "Could not determine the Flatpak app ID."
+msgstr "Impossibile determinare l’ID dell’app Flatpak."
+
+msgid "flatpak uninstall failed with no further details."
+msgstr "flatpak uninstall non è riuscito senza ulteriori dettagli."
+
+msgid "Could not locate the .AppImage file; only the launcher was removed. Find and delete it by hand (hint: %s)."
+msgstr "Impossibile individuare il file .AppImage; è stato rimosso solo il lanciatore. Trovalo ed eliminalo a mano (suggerimento: %s)."
+
+msgid "The operation timed out."
+msgstr "L’operazione è scaduta."
+
+msgid "The helper exited with code %d."
+msgstr "L’helper è terminato con codice %d."
+
+msgid "This looks like a system-wide Flatpak install (requires administrator privileges): %s"
+msgstr "Sembra un’installazione Flatpak a livello di sistema (richiede privilegi di amministratore): %s"
+
+msgid "Could not move “%s” to the trash; only the launcher was removed. Remove it by hand."
+msgstr "Impossibile spostare «%s» nel cestino; è stato rimosso solo il lanciatore. Rimuovila a mano."
+
+msgid "Required command not available: %s"
+msgstr "Comando richiesto non disponibile: %s"
+
+msgid "Could not determine how “%s” was installed. Its .desktop file doesn’t give enough clues."
+msgstr "Impossibile determinare come è stata installata «%s». Il suo file .desktop non fornisce indizi sufficienti."
+
+msgid "Manually installed in your home folder: %s. Check that location to remove it by hand."
+msgstr "Installata manualmente nella tua cartella home: %s. Controlla quella posizione per rimuoverla a mano."
+
+msgid "Manually installed under /opt: %s. Usually uninstalled by deleting that folder."
+msgstr "Installata manualmente in /opt: %s. Di solito si disinstalla eliminando quella cartella."
+
+msgid "No package manager owns this executable (%s) — likely installed directly by a script or vendor image, bypassing apt/snap/flatpak entirely. Check that location to remove it by hand."
+msgstr "Nessun gestore di pacchetti possiede questo eseguibile (%s) — probabilmente installato direttamente da uno script o da un’immagine del fornitore, bypassando completamente apt/snap/flatpak. Controlla quella posizione per rimuoverlo a mano."
+
+msgid "The .desktop file could not be read."
+msgstr "Impossibile leggere il file .desktop."
+
+msgid "This is a web app shortcut created from the browser (Chrome/Edge). Remove it from the browser’s own app management instead."
+msgstr "Questa è una scorciatoia di un’app web creata dal browser (Chrome/Edge). Rimuovila invece dalla gestione delle app del browser."
+
+msgid "Sort order"
+msgstr "Ordine"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Main menu"
+msgstr "Menu principale"
+
+msgid "Name (A–Z)"
+msgstr "Nome (A–Z)"
+
+msgid "Name (Z–A)"
+msgstr "Nome (Z–A)"
+
+msgid "Date (newest first)"
+msgstr "Data (prima le più recenti)"
+
+msgid "Date (oldest first)"
+msgstr "Data (prima le più vecchie)"
+
+msgid "All applications"
+msgstr "Tutte le applicazioni"
+
+msgid "User-installed"
+msgstr "Installate dall’utente"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "About Deinstall"
+msgstr "Informazioni su Deinstall"
+
+msgid "Quit"
+msgstr "Esci"
+
+msgid "Detected origin: %s."
+msgstr "Origine rilevata: %s."
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Uninstall"
+msgstr "Disinstalla"
+
+msgid "Uninstalling… this may take a few seconds."
+msgstr "Disinstallazione… potrebbe richiedere qualche secondo."
+
+msgid "Details"
+msgstr "Dettagli"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Flatpak"
+msgstr "Flatpak"
+
+msgid "Snap"
+msgstr "Snap"
+
+msgid "System package (apt)"
+msgstr "Pacchetto di sistema (apt)"
+
+msgid "AppImage"
+msgstr "AppImage"
+
+msgid "Unidentified origin"
+msgstr "Origine non identificata"
+
+msgid "Detecting origin…"
+msgstr "Rilevamento dell’origine…"
+
+msgid "Deinstall"
+msgstr "Deinstall"
+
+msgid "Search applications…"
+msgstr "Cerca applicazioni…"
+
+msgid "Lists every application installed on your system — apt, snap, Flatpak, or AppImage — so you can uninstall it cleanly from one place."
+msgstr "Elenca tutte le applicazioni installate sul tuo sistema — apt, snap, Flatpak o AppImage — così puoi disinstallarle in modo pulito da un unico posto."
+
+msgid "This will also remove its user data (Flatpak --delete-data)."
+msgstr "Questo rimuoverà anche i suoi dati utente (Flatpak --delete-data)."
+
+msgid "Uninstalled successfully."
+msgstr "Disinstallata correttamente."
+
+msgid "Web app (browser)"
+msgstr "App web (browser)"
+
+msgid "Manual install (home folder)"
+msgstr "Installazione manuale (cartella home)"
+
+msgid "Manual install (/opt)"
+msgstr "Installazione manuale (/opt)"
+
+msgid "Manual install (no package manager)"
+msgstr "Installazione manuale (nessun gestore di pacchetti)"
+
+msgid "Scanning installed applications…"
+msgstr "Scansione delle applicazioni installate…"
+
+msgid "No matching applications"
+msgstr "Nessuna applicazione corrispondente"
+
+msgid "Language preference saved. Restart the app to apply it everywhere."
+msgstr "Preferenza di lingua salvata. Riavvia l’app per applicarla ovunque."
+
+msgid "You will be asked to authenticate as an administrator."
+msgstr "Ti verrà chiesto di autenticarti come amministratore."
+
+msgid "Uninstall “%s”?"
+msgstr "Disinstallare «%s»?"
+
+msgid "Partial uninstall — see details."
+msgstr "Disinstallazione parziale — vedi i dettagli."
+
+msgid "⚠️ This package is part of the base system — removing it may break your desktop or other software. Only proceed if you’re sure."
+msgstr "⚠️ Questo pacchetto fa parte del sistema di base — rimuoverlo potrebbe compromettere il desktop o altri software. Procedi solo se sei sicuro."
+
+msgid "Unknown error."
+msgstr "Errore sconosciuto."
+
+msgid "This isn’t managed by a package manager and the app’s install folder couldn’t be determined — only the launcher will be removed."
+msgstr "Questo non è gestito da un gestore di pacchetti e non è stato possibile determinare la cartella di installazione dell’app — verrà rimosso solo il lanciatore."
+
+msgid "“%s” uninstalled."
+msgstr "«%s» disinstallata."
+
+msgid "This isn’t managed by a package manager — this is a guess. The folder below (and the launcher) will be moved to the trash, so you can recover it if the guess was wrong:\n%s"
+msgstr "Questo non è gestito da un gestore di pacchetti — è un’ipotesi. La cartella qui sotto (e il lanciatore) verrà spostata nel cestino, così puoi recuperarla se l’ipotesi era sbagliata:\n%s"
