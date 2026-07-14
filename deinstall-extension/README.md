@@ -6,7 +6,8 @@ app grid. Clicking it hands the selected app to the companion
 whether the app came from apt, Snap, Flatpak, or an AppImage and removes it
 cleanly.
 
-![Deinstall extension screenshot](snapshots/screenshot-1.png)
+<img src="snapshots/screenshot-1.png" alt="Deinstall extension screenshot" width="480">
+
 
 ## How it works
 
