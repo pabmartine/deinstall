@@ -6,6 +6,8 @@ app grid. Clicking it hands the selected app to the companion
 whether the app came from apt, Snap, Flatpak, or an AppImage and removes it
 cleanly.
 
+![Deinstall extension screenshot](snapshots/screenshot-1.png)
+
 ## How it works
 
 The extension is deliberately thin: it does **no** detection and **no**
@@ -19,9 +21,11 @@ Keeping it this thin is what makes it publishable on
 subprocesses, reads no files beyond what `Shell.App` already exposes, and only
 talks to the companion app over D-Bus.
 
-The **Uninstall** item is shown only on app-grid icons (not on the dash,
-taskbar, or alt-tab), and only for apps that have a `.desktop` launcher. If the
-companion app isn't installed, clicking it shows a notification instead.
+The **Uninstall** item appears on application icons that use the shell's
+standard app icon — the app grid, as well as docks that build on it such as
+Dash to Dock and Ubuntu Dock — and only for apps that have a `.desktop`
+launcher. If the companion app isn't installed, clicking it shows a
+notification instead.
 
 ## Requirements
 
